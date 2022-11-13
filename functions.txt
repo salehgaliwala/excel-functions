@@ -1,0 +1,66 @@
+• XLOOKUP
+
+It is a function used to find items in a table or range. 
+
+This is an improvement over VLOOKUP.
+
+I'm looking for revenue for a specific product over a number of years. 
+
+The formula: =XLOOKUP(A11,A2:A8,B2:G8)
+
+
+--------------------------------------------------------------------
+
+ IF
+
+Use the IF function to make logical comparisons.
+
+The logical comparison in our case is to return the word "adult" if the age is greater than 18.
+
+If it is not, it will display the word "child."
+
+The formula=IF(A2>18,"Adult","Child")
+
+---------------------------------------------------------------------
+
+• COUNTIF
+
+This function can be used to count the number of cells that meet a criterion.
+
+I'd like to know how many times a specific company has been named the best in different years.
+
+The formula:=COUNTIF(A2:B20,A23)
+
+
+---------------------------------------------------------------------
+
+• CONCATENATE
+
+This function is used to combine two or more text strings into a single string.
+
+I want to combine the first and last names in a single cell.
+
+Remember to include the " " and a space in the middle to separate the two texts.
+
+The formula: =CONCATENATE (A2,“ ”,B2)
+
+
+--------------------------------------------------------------------
+
+•SUMIF
+
+Use the SUMIF function to sum the values in a range that meets the criteria you specify.
+
+In this instance, I'm attempting to determine the quantity of sales for a specific vehicle.
+
+The formula: =SUMIF(A2:A16,A18,B2:B16)
+
+--------------------------------------------------------------------
+
+UPPER, LOWER, PROPER
+
+- UPPER Converts a text string to all uppercase
+- LOWER Converts a text string to all lowercase
+- PROPER Converts a text string to the proper case
+
+--------------------------------------------------------------------
